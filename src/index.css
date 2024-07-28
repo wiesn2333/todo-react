@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus-visible {
+  outline: 2px solid cornflowerblue;
+  outline-offset: 0;
+}
+
+html {
+  background-color: #ececec;
+  padding: 2rem;
+  font: 62.5% / 1.15 sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  box-shadow:
+    0 3rem 3rem #d3d3d3,
+    0 0 1rem #d3d3d3;
+  color: #4d4d4d;
+  font:
+    1.6rem/1.25 Arial,
+    sans-serif;
+  margin: auto;
+  padding: 2rem;
+  max-width: 68rem;
+  width: 100%;
+}
+
+h1,
+h2 {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

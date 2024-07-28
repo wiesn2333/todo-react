@@ -1,0 +1,37 @@
+button {
+  background: transparent;
+  border: 0.5rem solid rgb(226, 226, 226);
+  width: 6rem;
+}
+
+button:hover {
+  border: 0.5rem solid rgb(198, 197, 197);
+}
+
+button:active {
+  background: #ebebeb;
+}
+
+.todo-component {
+  display: flex;
+  border: solid 1px;
+  height: 6rem;
+}
+
+.todo-component [type="checkbox"] {
+  width: 3rem;
+  margin-left: 1rem;
+}
+
+.todo-component p {
+  flex: auto;
+  margin: auto;
+  display: inline-block;
+  width: max-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.todo-component .btn-remove {
+  flex: none;
+}
